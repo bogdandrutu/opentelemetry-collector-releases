@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install cosign
-        uses: sigstore/cosign-installer@v2
+        uses: sigstore/cosign-installer@v3
 
       - name: Install syft
         uses: anchore/sbom-action/download-syft@v0.13.1
